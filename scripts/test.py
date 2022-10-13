@@ -36,3 +36,6 @@ def read_persons():
 async def create_item(person: Person):
     persons.append(person)
     return person
+
+# run with:
+#   uvicorn test:app --reload
